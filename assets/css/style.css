@@ -14,6 +14,14 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* Added button with attributes to conform to accessibility standards */
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    font-size: 20px;
+    border-color: yellow;
+    }
 
 .header h1 {
     display: inline-block;
