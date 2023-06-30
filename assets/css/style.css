@@ -22,6 +22,7 @@ button {
     color: #ffffff;
     font-size: 20px;
     border-color: yellow;
+    padding: 10px;
 }
 
 .header h1 {
