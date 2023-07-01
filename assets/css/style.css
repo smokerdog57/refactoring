@@ -8,25 +8,24 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Added button with attributes to conform to accessibility standards */
-button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    font-size: 20px;
-    border-color: yellow;
-    padding: 10px;
+header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
-/* changed header div ul to header ul and consolidated ul style attribute */
-.header ul {
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* changed header div ul to header ul and consolidated ul style attribute and header class no longer needed*/
+header nav ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,18 +34,18 @@ button {
     list-style-type: none;
 }
 
-.header ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    font-size: 20px;
+    border-color: yellow;
+    padding: 10px;
 }
 
 a {
@@ -57,12 +56,11 @@ a {
 p {
     font-size: 16px;
 }
-
+/* moved image to index.html to comply to refactoring best practices */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
