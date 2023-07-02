@@ -1,5 +1,8 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
+
+Tom Fusco 2-Jul-2023
+
 ## User Story
 
 ```
@@ -35,8 +38,12 @@ THEN I find a concise, descriptive title
   * Application's CSS file is properly commented.
 
 ### Change Summary
+1. Refactored html code and css to improve readability, and sustainability.
+2. Refactored html and css to add semantic elements and inproved compliance with accessibility standards.
+3. Added missing link in nav section.
+4. Refactored classes to consolidate and remove unnecessary or redundant classes.
 
-  Resources:
+### Resources
   1. https://www.w3schools.com/html/html5_semantic_elements.asp
   2. https://www.w3schools.com/accessibility/index.php
 

@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Used header semantic element and header class was removed */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed header div ul to header ul and consolidated ul style attribute and header class no longer needed*/
+/* Replaced div element with nav element and consolidated ul /li style attribute */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,15 +40,6 @@ header nav ul li {
     list-style-type: none;
 }
 
-button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    font-size: 20px;
-    border-color: yellow;
-    padding: 10px;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -57,7 +49,7 @@ p {
     font-size: 16px;
 }
 
-/* moved image to index.html to comply to refactoring best practices */
+/* moved image to index.html to comply with refactoring best practices */
 .hero {
     height: 800px;
     width: 100%;
@@ -81,6 +73,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Refactored 3 classes (optimization, reputation, media) into 1 class: 
+optimization-reputation-marketing */
 
 .optimization-reputation-marketing {
     margin-bottom: 45px;
@@ -112,6 +107,7 @@ p {
 }
 
 /* Considated (refactored benefit lead/brand/cost into single class */
+
 .benefit-lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -128,13 +124,15 @@ p {
     max-width: 150px;
 }
 
-.footer {
+/* Removed footer class as no longer required */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
