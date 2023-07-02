@@ -25,18 +25,18 @@ header h1 .seo {
 }
 
 /* changed header div ul to header ul and consolidated ul style attribute and header class no longer needed*/
-header nav ul {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
 }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 button {
@@ -56,6 +56,7 @@ a {
 p {
     font-size: 16px;
 }
+
 /* moved image to index.html to comply to refactoring best practices */
 .hero {
     height: 800px;
