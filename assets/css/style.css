@@ -58,6 +58,12 @@ p {
     background-position: center;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,15 +74,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 /* Refactored 3 classes (optimization, reputation, media) into 1 class: 
 optimization-reputation-marketing */
-
 .optimization-reputation-marketing {
     margin-bottom: 45px;
     padding: 50px;
@@ -106,8 +105,7 @@ optimization-reputation-marketing */
     background-color: #2589bd;
 }
 
-/* Considated (refactored benefit lead/brand/cost into single class */
-
+/* Considated (refactored) benefit lead/brand/cost into single class */
 .benefit-lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -124,8 +122,7 @@ optimization-reputation-marketing */
     max-width: 150px;
 }
 
-/* Removed footer class as no longer required */
-
+/* Used footer semantic element and removed footer class as no longer required */
 footer {
     padding: 30px;
     clear: both;

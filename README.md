@@ -1,7 +1,7 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horiseon Code Refactor
 
-
-Tom Fusco 2-Jul-2023
+#### By Tom Fusco 2-Jul-2023
+#### Informational web site to introduce Horiseon services
 
 ## User Story
 
@@ -32,20 +32,26 @@ THEN I find a concise, descriptive title
 * Satisfies all of the preceding acceptance criteria plus the following code improvements:
 
   * Application's links all function correctly.
-
   * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
   * Application's CSS file is properly commented.
 
-### Change Summary
-1. Refactored html code and css to improve readability, and sustainability.
-2. Refactored html and css to add semantic elements and inproved compliance with accessibility standards.
-3. Added missing link in nav section.
-4. Refactored classes to consolidate and remove unnecessary or redundant classes.
+## Technologies used
 
-### Resources
+ * HTML
+ * CSS
+
+## Change Summary
+
+ 1. Refactored html code and css to improve readability, and sustainability.
+ 2. Refactored html and css to add semantic elements and inproved compliance with accessibility standards.
+ 3. Added missing link in nav section.
+ 4. Refactored classes to consolidate and remove unnecessary or redundant classes.
+
+## Resources
+
   1. https://www.w3schools.com/html/html5_semantic_elements.asp
   2. https://www.w3schools.com/accessibility/index.php
 
+## License
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
